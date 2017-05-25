@@ -2,7 +2,7 @@
 ## Compiling
 * In the terminal, compile the SCSS to CSS by typing the following command:
 ```
-sass main.scss main.css
+sass --watch style.scss:style.css 
 ```
 ## Concepts
 * Nesting is the process of placing child selectors and properties in the scope of a parent selector. This allows a programmer to draw DOM relationships and avoid repetition.
